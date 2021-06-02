@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orgendonation">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Receipient.ReceipientChangeProfilepassword"></activity>
+        <activity android:name=".Receipient.ReceipientForgotpassword" />
+        <activity android:name=".BloodGroupL.ABnegative" />
+        <activity android:name=".BloodGroupL.ABpositive" />
+        <activity android:name=".BloodGroupL.Bnegative" />
+        <activity android:name=".BloodGroupL.Bpositive" />
+        <activity android:name=".BloodGroupL.Anegative" />
+        <activity android:name=".BloodGroupL.Apositive" />
+        <activity android:name=".BloodGroupL.Onegtive" />
+        <activity android:name=".BloodGroupL.Opositive" />
+        <activity android:name=".Fetch.FetchABNLung" />
+        <activity android:name=".Fetch.FetchABNLiver" />
+        <activity android:name=".Fetch.FetchABNKidney" />
+        <activity android:name=".Fetch.FetchABNHeart" />
+        <activity android:name=".Fetch.FetchABNEyes" />
+        <activity android:name=".Fetch.FetchABPLung" />
+        <activity android:name=".Fetch.FetchABPLiver" />
+        <activity android:name=".Fetch.FetchABPKidney" />
+        <activity android:name=".Fetch.FetchABPHeart" />
+        <activity android:name=".Fetch.FetchABPEyes" />
+        <activity android:name=".Fetch.FetchBNLiver" />
+        <activity android:name=".Fetch.FetchBNHeart" />
+        <activity android:name=".Fetch.FetchBNKidney" />
+        <activity android:name=".Fetch.FetchBNEyes" />
+        <activity android:name=".Fetch.FetchBNLung" />
+        <activity android:name=".Fetch.FetchBPLung" />
+        <activity android:name=".Fetch.FetchANLung" />
+        <activity android:name=".Fetch.FetchBPLiver" />
+        <activity android:name=".Fetch.FetchBPKidney" />
+        <activity android:name=".Fetch.FetchBPHeart" />
+        <activity android:name=".Fetch.FetchBPEyes" />
+        <activity android:name=".Fetch.FetchANLiver" />
+        <activity android:name=".Fetch.FetchANKidney" />
+        <activity android:name=".Fetch.FetchANHeart" />
+        <activity android:name=".Fetch.FetchANEyes" />
+        <activity android:name=".Fetch.FetchAPLung" />
+        <activity android:name=".Fetch.FetchAPLiver" />
+        <activity android:name=".Fetch.FetchAPKidney" />
+        <activity android:name=".Fetch.FetchAPHeart" />
+        <activity android:name=".Fetch.FetchAPEyes" />
+        <activity android:name=".Fetch.FetchONLung" />
+        <activity android:name=".Fetch.FetchONLiver" />
+        <activity android:name=".Fetch.FetchONKidney" />
+        <activity android:name=".Fetch.FetchONHeart" />
+        <activity android:name=".Fetch.FetchONEyes" />
+        <activity android:name=".Fetch.FetchOPLiver" />
+        <activity android:name=".Fetch.FetchOPKidney" />
+        <activity android:name=".Fetch.FetchOPLung" />
+        <activity android:name=".Fetch.FetchOPHeart" />
+        <activity android:name=".Fetch.FetchOPEyes" />
+        <activity android:name=".Fetch.OKFetch" />
+        <activity android:name=".FetchBloodOrgan" />
+        <activity android:name=".Receipient.SearchDonor" />
+        <activity android:name=".ViewRec" />
+        <activity android:name=".Donor.ResponseToReceipient" />
+        <activity android:name=".Receipient.ReceipientHome"
+            android:largeHeap="true"
+            android:hardwareAccelerated="false">
+
+        </activity>
+        <activity android:name=".Donor.DonorHome"
+            android:largeHeap="true"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".fvactivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Donor.NearByHospitalsDonor"
+            android:label="@string/title_activity_near_by_hospitals_donor" />
+        <activity android:name=".Receipient.ReceipientAboutus" />
+        <activity android:name=".Donor.DonerAboutUs" />
+        <activity android:name=".ChoiceActivity" />
+        <activity android:name=".SplashScreen">
+
+        </activity>
+        <activity android:name=".FetchRequestActivity" />
+        <activity android:name=".FetchStateActivity" />
+        <activity android:name=".Receipient.RegisterRecipient" />
+        <activity android:name=".Receipient.RecipientUpdateProfile" />
+        <activity android:name=".Receipient.RequestDonor" />
+        <activity android:name=".Donor.DonorForgotpassword" />
+        <activity android:name=".FetchOrgensActivity" />
+        <activity android:name=".Donor.ChangePasswordDonor" />
+        <activity android:name=".Donor.UpdateProfileDonor" />
+        <activity android:name=".Donor.DonorProfile" />
+        <activity android:name=".Receipient.DashBoardRecipient" />
+        <activity android:name=".Donor.DashboardDonor" />
+        <activity android:name=".Donor.RegisterDonor" />
+        <activity android:name=".Donor.LoginDonor">
+        </activity>
+        <activity android:name=".Receipient.RecepientProfile" />
+        <activity android:name=".Receipient.LoginRecipient" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

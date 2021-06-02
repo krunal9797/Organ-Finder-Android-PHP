@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Organ Finder</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="achiev">Achievements</string>
+
+    <!-- Strings related to login -->
+    <string name="signup">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="register">Create an account</string>
+    <string name="forgotpass">Forgot password???</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="reset">Reset</string>
+    <string name="displayName">Full Name</string>
+    <string name="mobile">Mobile No</string>
+    <string name="userAddress">Address</string>
+    <string name="nearH">Find nearest Hospitals</string>
+    <string name="fndBlood">Find Blood Donor</string>
+    <string name="lgout">Log out</string>
+    <string name="devinfo">About us</string>
+    <string name="bloodinfo">Blood Info</string>
+
+
+    <string-array name="array_orgens">
+        <item>Eyes</item>
+        <item>Heart</item>
+        <item>Lung</item>
+        <item>Kidney</item>
+        <item>Liver</item>
+        <item>Intestines</item>
+        <item>Pancreas</item>
+        <item>Cornea</item>
+        <item>Tissue</item>
+    </string-array>
+
+    <string-array name="array_state">
+        <item>AndhraPradesh </item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>HimachalPradesh</item>
+        <item>JammuKashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>MadhyaPradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>TamilNadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>UttarPradesh</item>
+        <item>Uttarakhand</item>
+        <item>WestBengal</item>
+    </string-array>
+
+    <string-array name="division_list">
+        <item>Vyara</item>
+        <item>Valod</item>
+        <item>Uchchal</item>
+        <item>Nizar</item>
+        <item>Kukarmunda</item>
+        <item>Mandvi</item>
+        <item>Mahuva</item>
+        <item>Songadh</item>
+
+    </string-array>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="Blood_Group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+
+    <string name="eligibility_">Eligibility Requirements</string>
+    <string name="female_">If you are female, you must:\n Be healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 5 inch\nWeigh at least 150 lbs.</string>
+    <string name="male_">If you are male, you must:\nBe healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 1 inch \nWeigh at least 130 lbs.\n</string>
+    <string name="info_">Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments. Many people would not be alive today if donors had not generously given their blood. \n\nWhy we need you to give blood?\n\n We need over 6000 blood donations every day to treat patients in need for people to give blood.\n\nEach year we need approximately 200000 new donors, as some donors can no longer give blood.Most people between ages of 17-65 are able to give blood. Around half our current donors are over 45.That is why we need more young people to start giving blood.</string>
+    <string name="aboutus">Er. Krunal Gamit(B.E.I.T.)<br></br>
+        this project can be help to village easily find blood doner.
+    </string>
+    <string name="name">Name:</string>
+    <string name="create_an_account">Create an Account ?</string>
+    <string name="application">Organ Finder</string>
+    <string name="title_activity_near_by_hospital_s">Map</string>
+    <string name="krunal_gamit">Krunal Gamit</string>
+    <string name="nameview">Name :</string>
+    <string name="blood_group">Blood Group :</string>
+    <string name="contact">Contact</string>
+    <string name="_918320255573">+918320255573</string>
+    <string name="address">Address :</string>
+    <string name="vyara">Vyara</string>
+    <string name="last_donate">Last Donate :</string>
+    <string name="not_yet_donated">not yet donated!</string>
+    <string name="title_activity_near_by_hospital">Map</string>
+
+    <string name="category">Category</string>
+    <string name="already_have_an_account_click_here">Already have an account? <b>Click Here</b></string>
+    <string name="described"><b>Developed by : </b>\n<br>Bhatt Tvisha(MCA)</br>\n<br>Patel Khushbu(MCA)</br>\n<br>Vasani Zarana(MCA)</br>
+    </string>
+    <string name="donation">OrganFinder is a not-for-profit,
+        registered non-government charity organisation in India
+        that works in the field of deceased organ donation and transplantation.
+        Organfinder is an acronym for Multi Organ Harvesting Aid Network</string>
+    <string name="title_activity_near_by_hospitals_donor">Map</string>
+    <string name="brain">It assembles the messages in a way that has meaning for us, and can store that information in our memory. The brain controls our thoughts, memory and speech, movement of the arms and legs, and the function of many organs within our body. The central nervous system (CNS) is composed of the brain and spinal cord.</string>
+    <string name="lung">Image result for lung description The lungs are a pair of spongy, air-filled organs located on either side of the chest (thorax). The trachea (windpipe) conducts inhaled air into the lungs through its tubular branches, called bronchi. The bronchi then divide into smaller and smaller branches (bronchioles), finally becoming microscopic</string>
+    <string name="heart">The heart is a muscular organ about the size of a fist, located just behind and slightly left of the breastbone. The heart pumps blood through the network of arteries and veins called the cardiovascular system</string>
+    <string name="spleen">Your spleen is an organ above your stomach and under your ribs on your left side. It is about as big as your fist. The spleen is part of your lymphatic system, which fights infection and keeps your body fluids in balance. It contains white blood cells that fight germs.</string>
+    <string name="stomach">Image result for stomach description The stomach is a muscular organ located on the left side of the upper abdomen. The stomach receives food from the esophagus. As food reaches the end of the esophagus, it enters the stomach through a muscular valve called the lower esophageal sphincter. The stomach secretes acid and enzymes that digest food.</string>
+    <string name="liver">The liver is a large, meaty organ that sits on the right side of the belly. Weighing about 3 pounds, the liver is reddish-brown in color and feels rubbery to the touch. Normally you can not feel the liver, because it is protected by the rib cage. The liver has two large sections, called the right and the left lobes.</string>
+    <string name="intestines">The intestines are a long, continuous tube running from the stomach to the anus. Most absorption of nutrients and water happen in the intestines. The intestines include the small intestine, large intestine, and rectum. The small intestine (small bowel) is about 20 feet long and about an inch in diameter.</string>
+    <string name="eyes">Eyes are organs of the visual system. They provide animals with vision, the ability to receive and process visual detail, as well as enabling several photo response functions that are independent of vision. Eyes detect light and convert it into electro-chemical impulses in neurons.</string>
+
+
+</resources>

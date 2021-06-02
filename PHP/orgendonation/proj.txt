@@ -1,0 +1,10 @@
+<?php
+
+define('HOST','localhost');
+define('USER','id16415795_root');
+define('PASS','Krunal@7997@sia');
+define('DB','id16415795_orgendonation');
+
+$conn =mysqli_connect(HOST,USER,PASS,DB);
+
+?>

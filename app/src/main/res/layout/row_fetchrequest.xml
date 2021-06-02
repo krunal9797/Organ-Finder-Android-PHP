@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/row_orgen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Organ"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text=" Orgen Donor!"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/row_bloodgroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/row_orgen"
+                        android:hint="bloodgroup"
+                        android:textAllCaps="true"
+                        android:textSize="17sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact: "
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/row_cnum"
+                            android:background="@drawable/border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="+918320255573"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/row_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Requested by: Krunal Gamit"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/row_disease"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disease"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/row_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="description"
+                        android:textSize="17sp" />
+
+
+                    <TextView
+                        android:id="@+id/row_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="From: Vyara, Vyara"
+                        android:textSize="17sp" />
+
+                    <Button
+                        android:id="@+id/btncl"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Call"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
