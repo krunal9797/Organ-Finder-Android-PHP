@@ -24,7 +24,7 @@ public class ApiHandler
             RestAdapter restAdapter = new RestAdapter.Builder()
                     .setLogLevel(RestAdapter.LogLevel.FULL)
                     .setEndpoint(BASE_URL)
-
+                    .addConverterFactory(ScalarsConverterFactory.create())    
                     .setConverter(new GsonConverter(new Gson()))
                     .build();
             apiService = restAdapter.create(WebService.class);
